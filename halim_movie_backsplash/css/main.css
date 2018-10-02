@@ -1,0 +1,67 @@
+html {
+    background-color: black;
+    width: 1200px;
+    height: 2400px;
+}
+
+h1 {
+    font-family: 'Raleway Dots', cursive;  
+}
+
+/* #content-icons {
+    position: absolute;
+    z-index: 10;
+    top: 2300px;
+}
+
+ul > li {
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+ul{
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+} */
+
+#content-backsplash {
+    width: 1200px;
+    position: absolute;
+    z-index: 1;
+}
+
+#content-movietitle {
+    position: absolute;
+    z-index: 10;
+    left: 250px;
+    top: 200px;
+    opacity: 0.75;
+}
+
+#content-movieposter {
+    position: absolute;
+    z-index: 9;
+    top: 2000px;
+    left: 200px;
+}
+
+#content-about {
+    position: absolute;
+    z-index: 8;
+    color: white; 
+    width: 525px;
+    top: 2200px;
+    left: 750px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#content-video {
+    position: absolute;
+    z-index: 5;
+    width: 1080px;
+    top: 1350px;
+    left: 350px;
+}
