@@ -1,4 +1,4 @@
-html {
+body,html {
     background-color: black;
     width: 1200px;
     height: 2400px;
@@ -8,22 +8,38 @@ h1 {
     font-family: 'Raleway Dots', cursive;  
 }
 
-/* #content-icons {
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 445px;
+    left: 500px;
+    color: rgb(88, 13, 13);
+    font-size: 64px;
+}
+
+h3 {
+    font-family: 'Raleway Dots', cursive;
+}
+
+#content-icons {
     position: absolute;
     z-index: 10;
-    top: 2300px;
+    top: 2375px;
+    left: 1000px;
+    color: white;
+}
+
+ul{
+    width: 500px;
+    display: block;
+    margin: 0 auto;  
 }
 
 ul > li {
     display: inline;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
 }
-
-ul{
-    width: 160px;
-    display: block;
-    margin: 0 auto;
-} */
 
 #content-backsplash {
     width: 1200px;
@@ -34,16 +50,13 @@ ul{
 #content-movietitle {
     position: absolute;
     z-index: 10;
-    left: 250px;
-    top: 200px;
-    opacity: 0.75;
 }
 
 #content-movieposter {
     position: absolute;
     z-index: 9;
-    top: 2000px;
-    left: 200px;
+    top: 1800px;
+    left: 450px;
 }
 
 #content-about {
@@ -51,17 +64,49 @@ ul{
     z-index: 8;
     color: white; 
     width: 525px;
-    top: 2200px;
-    left: 750px;
+    top: 1800px;
+    left: 925px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
 }
 
 #content-video {
+    padding: 32%;
+}
+
+.mpfour {
     position: absolute;
     z-index: 5;
-    width: 1080px;
-    top: 1350px;
-    left: 350px;
+    top: 1000px;
+}
+
+.ogv {
+    position: absolute;
+    z-index: 5;
+    top: 1000px;
+}
+
+.webm {
+    position: absolute;
+    z-index: 5;
+    top: 1000px;
+}
+
+a  {
+color:white;
+font-size: 25px;
+}
+
+a:link {
+    color:white;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+a:active{
+    color:white;
 }
