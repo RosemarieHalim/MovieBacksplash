@@ -1,7 +1,6 @@
 body,html {
     background-color: black;
-    width: 1200px;
-    height: 2400px;
+    margin:0;
 }
 
 h1 {
@@ -42,9 +41,13 @@ ul > li {
 }
 
 #content-backsplash {
-    width: 1200px;
+    /* width: 1200px;
     position: absolute;
-    z-index: 1;
+    z-index: 1; */
+    height:100vh;
+    position: inherit;
+    background: url("../img/background-assets/background.png") no-repeat center center fixed;
+    background-size: cover;
 }
 
 #content-movietitle {
@@ -69,6 +72,7 @@ ul > li {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom:100px;
 }
 
 #content-video {
@@ -109,4 +113,13 @@ a:hover {
 
 a:active{
     color:white;
+}
+.clear-fix {
+    margin-bottom:100px;
+}
+
+#content-wrapper {
+    position: relative;
+    margin-bottom:100px;
+    /* border: 1px solid white; */
 }
